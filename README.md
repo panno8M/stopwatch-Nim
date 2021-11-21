@@ -4,7 +4,7 @@ This is a fork of https://gitlab.com/define-private-public/stopwatch
 
 Documents
 ---------
-See https://panno8m.github.io/stopwatch-Nim/
+See https://panno8m.github.io/stopwatch-Nim/stopwatch.html
 
 Examples
 --------
