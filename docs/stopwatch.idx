@@ -1,0 +1,24 @@
+Stopwatch	stopwatch.html#Stopwatch	stopwatch: Stopwatch	
+StopwatchAccum	stopwatch.html#StopwatchAccum	stopwatch: StopwatchAccum	
+sw	stopwatch.html#sw.c,StopwatchAccum	stopwatch: sw(this: StopwatchAccum): lent Stopwatch	
+sw	stopwatch.html#sw.c,StopwatchAccum_2	stopwatch: sw(this: var StopwatchAccum): var Stopwatch	
+newStopwatch	stopwatch.html#newStopwatch	stopwatch: newStopwatch(): Stopwatch	
+newStopwatchAccum	stopwatch.html#newStopwatchAccum	stopwatch: newStopwatchAccum(): StopwatchAccum	
+isRunning	stopwatch.html#isRunning,Stopwatch	stopwatch: isRunning(sw: var Stopwatch): bool	
+lastLap	stopwatch.html#lastLap,Stopwatch	stopwatch: lastLap(this: Stopwatch): lent Duration	
+laps	stopwatch.html#laps,StopwatchAccum	stopwatch: laps(this: StopwatchAccum): lent seq[Duration]	
+start	stopwatch.html#start,Stopwatch	stopwatch: start(this: var Stopwatch)	
+peek	stopwatch.html#peek,Stopwatch	stopwatch: peek(this: var Stopwatch): Duration	
+stop	stopwatch.html#stop,Stopwatch	stopwatch: stop(this: var Stopwatch)	
+reset	stopwatch.html#reset,Stopwatch	stopwatch: reset(this: var Stopwatch)	
+total	stopwatch.html#total,StopwatchAccum	stopwatch: total(this: StopwatchAccum): lent Duration	
+totalWithCurrent	stopwatch.html#totalWithCurrent,StopwatchAccum	stopwatch: totalWithCurrent(this: var StopwatchAccum): Duration	
+stop	stopwatch.html#stop,StopwatchAccum	stopwatch: stop(this: var StopwatchAccum)	
+restart	stopwatch.html#restart,Stopwatch	stopwatch: restart(this: var Stopwatch)	
+init	stopwatch.html#init,StopwatchAccum	stopwatch: init(this: var StopwatchAccum)	
+numRanLaps	stopwatch.html#numRanLaps,StopwatchAccum	stopwatch: numRanLaps(this: var StopwatchAccum): int	
+numRunningLaps	stopwatch.html#numRunningLaps,StopwatchAccum	stopwatch: numRunningLaps(this: var StopwatchAccum): int	
+erasureLapAt	stopwatch.html#erasureLapAt,StopwatchAccum,int	stopwatch: erasureLapAt(this: var StopwatchAccum; idx: int)	
+clearLaps	stopwatch.html#clearLaps,StopwatchAccum	stopwatch: clearLaps(this: var StopwatchAccum)	
+bench	stopwatch.html#bench.t,Stopwatch,untyped	stopwatch: bench(this: var Stopwatch; body: untyped): untyped	
+bench	stopwatch.html#bench.t,StopwatchAccum,untyped	stopwatch: bench(this: var StopwatchAccum; body: untyped): untyped	
