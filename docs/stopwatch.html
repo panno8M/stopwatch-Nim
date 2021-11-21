@@ -116,9 +116,9 @@ window.addEventListener('DOMContentLoaded', main);
 <li>
   <a class="reference reference-toplevel" href="#12" id="62">Procs</a>
   <ul class="simple simple-toc-section">
-      <ul class="simple nested-toc-section">erasureLapAt
-      <li><a class="reference" href="#erasureLapAt%2CStopwatchAccum%2Cint"
-    title="erasureLapAt(this: var StopwatchAccum; idx: int)">erasureLapAt(this: var StopwatchAccum; idx: int)</a></li>
+      <ul class="simple nested-toc-section">eraseLapAt
+      <li><a class="reference" href="#eraseLapAt%2CStopwatchAccum%2Cint"
+    title="eraseLapAt(this: var StopwatchAccum; idx: int)">eraseLapAt(this: var StopwatchAccum; idx: int)</a></li>
 
   </ul>
   <ul class="simple nested-toc-section">newStopwatchAccum
@@ -383,8 +383,8 @@ Returns the number of laps the Stopwatch has recorded so far.
 Returns the number of laps the Stopwatch has recorded so far. It will include the current lap in the count.
 
 </dd>
-<a id="erasureLapAt,StopwatchAccum,int"></a>
-<dt><pre><span class="Keyword">proc</span> <a href="#erasureLapAt%2CStopwatchAccum%2Cint"><span class="Identifier">erasureLapAt</span></a><span class="Other">(</span><span class="Identifier">this</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="stopwatch.html#StopwatchAccum"><span class="Identifier">StopwatchAccum</span></a><span class="Other">;</span> <span class="Identifier">idx</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+<a id="eraseLapAt,StopwatchAccum,int"></a>
+<dt><pre><span class="Keyword">proc</span> <a href="#eraseLapAt%2CStopwatchAccum%2Cint"><span class="Identifier">eraseLapAt</span></a><span class="Other">(</span><span class="Identifier">this</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="stopwatch.html#StopwatchAccum"><span class="Identifier">StopwatchAccum</span></a><span class="Other">;</span> <span class="Identifier">idx</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 Removes a lap from the Stopwatch's record with the given index of <tt class="docutils literal"><span class="pre"><span class="Identifier">num</span></span></tt>. This function has the possibility of raising an <tt class="docutils literal"><span class="pre"><span class="Identifier">IndexError</span></span></tt>.
@@ -445,7 +445,7 @@ A simple template that will wrap the <tt class="docutils literal"><span class="p
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2021-11-21 17:00:29 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2021-11-21 17:20:31 UTC</small>
       </div>
     </div>
   </div>

@@ -18,7 +18,7 @@ restart	stopwatch.html#restart,Stopwatch	stopwatch: restart(this: var Stopwatch)
 init	stopwatch.html#init,StopwatchAccum	stopwatch: init(this: var StopwatchAccum)	
 numRanLaps	stopwatch.html#numRanLaps,StopwatchAccum	stopwatch: numRanLaps(this: var StopwatchAccum): int	
 numRunningLaps	stopwatch.html#numRunningLaps,StopwatchAccum	stopwatch: numRunningLaps(this: var StopwatchAccum): int	
-erasureLapAt	stopwatch.html#erasureLapAt,StopwatchAccum,int	stopwatch: erasureLapAt(this: var StopwatchAccum; idx: int)	
+eraseLapAt	stopwatch.html#eraseLapAt,StopwatchAccum,int	stopwatch: eraseLapAt(this: var StopwatchAccum; idx: int)	
 clearLaps	stopwatch.html#clearLaps,StopwatchAccum	stopwatch: clearLaps(this: var StopwatchAccum)	
 bench	stopwatch.html#bench.t,Stopwatch,untyped	stopwatch: bench(this: var Stopwatch; body: untyped): untyped	
 bench	stopwatch.html#bench.t,StopwatchAccum,untyped	stopwatch: bench(this: var StopwatchAccum; body: untyped): untyped	

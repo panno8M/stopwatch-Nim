@@ -90,7 +90,7 @@ func numRunningLaps*(this: var StopwatchAccum): int =
   ## It will include the current lap in the count.
   this.numRanLaps + this.sw.startTime.isSome.int
 
-proc erasureLapAt*(this: var StopwatchAccum; idx: int) =
+proc eraseLapAt*(this: var StopwatchAccum; idx: int) =
   ## Removes a lap from the Stopwatch's record with the given index of `num`.
   ## This function has the possibility of raising an `IndexError`.
   this.total -= this.laps[idx]
